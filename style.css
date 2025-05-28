@@ -1,0 +1,40 @@
+.mydiv {
+    position: absolute;
+    z-index: 9;
+    cursor: move;
+}
+
+.collection {
+    margin-top: 15em;
+}
+
+#ticketleft {
+    position: relative;
+    left: 7em;
+}
+
+#ticketright {
+    position: relative;
+    left: -30em;
+}
+
+#ticketcenter {
+    position: relative;
+    left: -7em;
+}
+
+#hotelleft {
+    position: relative;
+    left: 7em;
+}
+
+#hotelright {
+    position: relative;
+    left: -35em;
+    width: 500px;
+}
+
+#hotelcenter {
+    position: relative;
+    left: -7em;
+}
