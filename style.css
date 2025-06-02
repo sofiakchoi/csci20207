@@ -1,3 +1,45 @@
+
+
+#container {
+    height: 150vh;
+}
+
+#zoom-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: opacity(0) scale(1) translate(-50%, -50%);
+    transition: font-size 0.25s ease-out;
+    overflow: hidden;
+}
+
+.content {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-image: url('images/Untitled.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 5em;
+}
+.rows {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .mydiv {
     position: absolute;
     z-index: 9;
@@ -5,9 +47,50 @@
 }
 
 .collection {
-    margin-top: 15em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    height: 80vh;
 }
 
+.description {
+    min-width: 400px;
+    max-width: 400px;
+    margin-top: 1em;
+}
+
+.descright {
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    display: flex;
+    float: right;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
+/* tickets */
 #ticketleft {
     position: relative;
     left: 7em;
@@ -23,18 +106,88 @@
     left: -7em;
 }
 
+#myDiv {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px solid #E72629;
+    color: #E72629;
+}
+
+
+/* hotels */
 #hotelleft {
     position: relative;
-    left: 7em;
+    left: -85em;
 }
 
 #hotelright {
     position: relative;
-    left: -35em;
-    width: 500px;
+    left: -50em;
 }
 
 #hotelcenter {
     position: relative;
-    left: -7em;
+    left: -60em;
+}
+
+/* pharmacy */
+#pharmacyleft {
+    position: relative;
+    right: 110em;
+}
+
+#pharmacyright {
+    position: relative;
+    right: 150em;
+}
+
+#pharmacycenter {
+    position: relative;
+    right: 130em;
+}
+
+/* fruits */
+#fruitsleft {
+    position: relative;
+    right: 200em;
+}
+
+#fruitsright {
+    position: relative;
+    right: 160em;
+}
+
+#fruitscenter {
+    position: relative;
+    right: 180em;
+}
+
+/* postcard */
+#postcardleft {
+    position: relative;
+    left: -285em;
+}
+
+#postcardright {
+    position: relative;
+    left: -250em;
+}
+
+
+/* family photos */
+#photo1 {
+    position: relative;
+    left: -245em;
+}
+
+#photo2 {
+    position: relative;
+    left: -250em;
+}
+
+#photo3 {
+    position: relative;
+    left: -260em;
 }
