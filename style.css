@@ -1,4 +1,86 @@
 
+#img01 {
+    display: none;
+    position: relative;
+    z-index: 10;
+    width: 550px; /* Set the fixed width */
+    height: 550px; /* Set the fixed height */
+    object-fit: contain; /* Ensures the image fits within the dimensions without distortion */
+    filter: drop-shadow(0 0 1rem #E72629);
+}
+
+#hover01 {
+    text-decoration: underline;
+}
+
+#hover01:hover {
+color: #040404;
+}
+
+#img02 {
+    display: none;
+    position: relative;
+    z-index: 10;
+    width: 550px; /* Set the fixed width */
+    height: 550px; /* Set the fixed height */
+    object-fit: contain; /* Ensures the image fits within the dimensions without distortion */
+    filter: drop-shadow(0 0 1rem #E72629);
+}
+
+#hover02 {
+    text-decoration: underline;
+}
+
+#hover02:hover {
+color: #040404;
+}
+
+#img03 {
+    display: none;
+    position: relative;
+    z-index: 10;
+    width: 550px; /* Set the fixed width */
+    height: 550px; /* Set the fixed height */
+    object-fit: contain; /* Ensures the image fits within the dimensions without distortion */
+    filter: drop-shadow(0 0 1rem #E72629);
+}
+
+#hover03:hover {
+color: #040404;
+}
+
+#hover03 {
+    text-decoration: underline;
+}
+    
+#img04 {
+    display: none;
+    position: relative;
+    z-index: 10;
+    width: 550px; /* Set the fixed width */
+    height: 550px; /* Set the fixed height */
+    object-fit: contain; /* Ensures the image fits within the dimensions without distortion */
+    filter: drop-shadow(0 0 1rem #E72629);
+}
+
+#hover04:hover {
+color: #040404;
+}
+
+#hover04 {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: plantin-condensed, sans-serif;
+    color: #E72629;
+    opacity: 90%;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+}
 
 #container {
     height: 150vh;
@@ -67,43 +149,81 @@ body {
 }
 
 .collapsible {
-    background-color: #777;
-    color: white;
+    background-color: transparent;
+    color: #E72629;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 2px dotted #E72629;
     text-align: left;
     outline: none;
     font-size: 15px;
+    font-family: monospace;
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #E72629;
+    color: #fbf6ef;
+
 }
 
 .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    color: #E72629;
+    background-color: #fbf6ef;
+    border: 2px dotted #E72629;
+    max-height: 400px;
+    overflow: scroll;
+    text-align: left;
+}
+
+#thanks {
+    background-color: transparent;
+    color: #E72629;
+    padding: 18px;
+    width: 40%;
+    border: 2px dotted #E72629;
+    text-align: center;
+    display: inline-block;
+}
+
+.end {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#disclaimer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0em;
+}
+
+#disclaimer {
+    color: #E72629;
 }
 
 
 /* tickets */
 #ticketleft {
     position: relative;
-    left: 7em;
+    left: 5em;
 }
 
 #ticketright {
     position: relative;
-    left: -30em;
+    left: -27em;
 }
 
 #ticketcenter {
     position: relative;
-    left: -7em;
+    left: -9em;
 }
 
 #myDiv {
@@ -111,8 +231,29 @@ body {
     background-color: #fbf6ef;
     padding: 10px;
     max-width: 170px;
-    border: 2px solid #E72629;
+    border: 2px dotted #E72629;
     color: #E72629;
+    font-family: monospace;
+}
+
+#myDiv2 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+}
+
+#myDiv3 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
 }
 
 
@@ -132,20 +273,83 @@ body {
     left: -60em;
 }
 
+#myDiv4 {
+    text-align: right;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+    float: right;
+}
+
+#myDiv5 {
+    text-align: right;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+    float: right;
+}
+
+#myDiv6 {
+    text-align: right;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+    float: right;
+}
+
 /* pharmacy */
 #pharmacyleft {
     position: relative;
-    right: 110em;
+    right: 120em;
 }
 
 #pharmacyright {
     position: relative;
-    right: 150em;
+    right: 160em;
 }
 
 #pharmacycenter {
     position: relative;
-    right: 130em;
+    right: 140em;
+}
+
+#myDiv7 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+}
+
+#myDiv8 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+}
+
+#myDiv9 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
 }
 
 /* fruits */
@@ -161,33 +365,118 @@ body {
 
 #fruitscenter {
     position: relative;
-    right: 180em;
+    right: 190em;
+}
+
+#myDiv10 {
+    text-align: right;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+    float: right;
+}
+
+#myDiv11 {
+    text-align: right;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+    float: right;
+}
+
+#myDiv12 {
+    text-align: right;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+    float: right;
 }
 
 /* postcard */
 #postcardleft {
     position: relative;
-    left: -285em;
+    left: -260em;
 }
 
 #postcardright {
     position: relative;
-    left: -250em;
+    left: -240em;
 }
 
+#myDiv13 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+}
+
+#myDiv14 {
+    text-align: left;
+    background-color: #fbf6ef;
+    padding: 10px;
+    max-width: 170px;
+    border: 2px dotted #E72629;
+    color: #E72629;
+    font-family: monospace;
+}
 
 /* family photos */
 #photo1 {
     position: relative;
-    left: -245em;
+    left: -285em;
+    top: -9em;
 }
 
 #photo2 {
     position: relative;
-    left: -250em;
+    left: -270em;
+    top: -9em;
 }
 
 #photo3 {
     position: relative;
-    left: -260em;
+    left: -300em;
+    top: -6em;
+}
+
+#photo4 {
+    position: relative;
+    left: -330em;
+    top: -1em;
+}
+
+#photo5 {
+    position: relative;
+    left: -320em;
+    top: -2em;
+}
+
+#photo6 {
+    position: relative;
+    left: -340em;
+    top: -1em;
+}
+
+#photo7 {
+    position: relative;
+    left: -380em;
+    top: -5em;
+}
+
+#photo8 {
+    position: relative;
+    left: -370em;
+    top: -8em;
 }

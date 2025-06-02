@@ -6,30 +6,158 @@ document.addEventListener('scroll', function() {
   zoomText.style.transform = 'translate(-50%, -50%) scale(' + zoomLevel + ')';
 });
 
+// ticket
 
-// document.getElementById('ticketleft').addEventListener('mousedown', function() {
-//   document.getElementById('myDiv').style.display = 'block';
-// });
+document.getElementById('hover01').addEventListener('mouseover', function() {
+  document.getElementById('img01').style.display = 'block';
+});
 
-// document.getElementById('ticketleft').addEventListener('mouseup', function() {
-//   document.getElementById('myDiv').style.display = 'none';
-// });
+document.getElementById('hover01').addEventListener('mouseout', function() {
+  document.getElementById('img01').style.display = 'none';
+});
 
-// document.getElementById('ticketcenter').addEventListener('mousedown', function() {
-//   document.getElementById('myDiv2').style.display = 'block';
-// });
+document.getElementById('ticketleft').addEventListener('mousedown', function() {
+  document.getElementById('myDiv').style.display = 'block';
+});
 
-// document.getElementById('ticketcenter').addEventListener('mouseup', function() {
-//   document.getElementById('myDiv2').style.display = 'none';
-// });
+document.getElementById('ticketleft').addEventListener('mouseup', function() {
+  document.getElementById('myDiv').style.display = 'none';
+});
 
-// document.getElementById('ticketright').addEventListener('mousedown', function() {
-//   document.getElementById('myDiv3').style.display = 'block';
-// });
+document.getElementById('ticketcenter').addEventListener('mousedown', function() {
+  document.getElementById('myDiv2').style.display = 'block';
+});
 
-// document.getElementById('ticketright').addEventListener('mouseup', function() {
-//   document.getElementById('myDiv3').style.display = 'none';
-// });
+document.getElementById('ticketcenter').addEventListener('mouseup', function() {
+  document.getElementById('myDiv2').style.display = 'none';
+});
+
+document.getElementById('ticketright').addEventListener('mousedown', function() {
+  document.getElementById('myDiv3').style.display = 'block';
+});
+
+document.getElementById('ticketright').addEventListener('mouseup', function() {
+  document.getElementById('myDiv3').style.display = 'none';
+});
+
+// hotel
+document.getElementById('hover02').addEventListener('mouseover', function() {
+  document.getElementById('img02').style.display = 'block';
+});
+
+document.getElementById('hover02').addEventListener('mouseout', function() {
+  document.getElementById('img02').style.display = 'none';
+});
+
+document.getElementById('hotelright').addEventListener('mousedown', function() {
+  document.getElementById('myDiv5').style.display = 'block';
+});
+
+document.getElementById('hotelright').addEventListener('mouseup', function() {
+  document.getElementById('myDiv5').style.display = 'none';
+});
+
+document.getElementById('hotelleft').addEventListener('mousedown', function() {
+  document.getElementById('myDiv4').style.display = 'block';
+});
+
+document.getElementById('hotelleft').addEventListener('mouseup', function() {
+  document.getElementById('myDiv4').style.display = 'none';
+});
+
+document.getElementById('hotelcenter').addEventListener('mousedown', function() {
+  document.getElementById('myDiv6').style.display = 'block';
+});
+
+document.getElementById('hotelcenter').addEventListener('mouseup', function() {
+  document.getElementById('myDiv6').style.display = 'none';
+});
+
+// pharmacy
+
+document.getElementById('hover03').addEventListener('mouseover', function() {
+  document.getElementById('img03').style.display = 'block';
+});
+
+document.getElementById('hover03').addEventListener('mouseout', function() {
+  document.getElementById('img03').style.display = 'none';
+});
+
+document.getElementById('pharmacyright').addEventListener('mousedown', function() {
+  document.getElementById('myDiv8').style.display = 'block';
+});
+
+document.getElementById('pharmacyright').addEventListener('mouseup', function() {
+  document.getElementById('myDiv8').style.display = 'none';
+});
+
+document.getElementById('pharmacyleft').addEventListener('mousedown', function() {
+  document.getElementById('myDiv7').style.display = 'block';
+});
+
+document.getElementById('pharmacyleft').addEventListener('mouseup', function() {
+  document.getElementById('myDiv7').style.display = 'none';
+});
+
+document.getElementById('pharmacycenter').addEventListener('mousedown', function() {
+  document.getElementById('myDiv9').style.display = 'block';
+});
+
+document.getElementById('pharmacycenter').addEventListener('mouseup', function() {
+  document.getElementById('myDiv9').style.display = 'none';
+});
+
+// fruits
+
+document.getElementById('hover04').addEventListener('mouseover', function() {
+  document.getElementById('img04').style.display = 'block';
+});
+
+document.getElementById('hover04').addEventListener('mouseout', function() {
+  document.getElementById('img04').style.display = 'none';
+});
+
+document.getElementById('fruitsright').addEventListener('mousedown', function() {
+  document.getElementById('myDiv11').style.display = 'block';
+});
+
+document.getElementById('fruitsright').addEventListener('mouseup', function() {
+  document.getElementById('myDiv11').style.display = 'none';
+});
+
+document.getElementById('fruitsleft').addEventListener('mousedown', function() {
+  document.getElementById('myDiv10').style.display = 'block';
+});
+
+document.getElementById('fruitsleft').addEventListener('mouseup', function() {
+  document.getElementById('myDiv10').style.display = 'none';
+});
+
+document.getElementById('fruitscenter').addEventListener('mousedown', function() {
+  document.getElementById('myDiv12').style.display = 'block';
+});
+
+document.getElementById('fruitscenter').addEventListener('mouseup', function() {
+  document.getElementById('myDiv12').style.display = 'none';
+});
+
+// postcard
+
+document.getElementById('postcardright').addEventListener('mousedown', function() {
+  document.getElementById('myDiv14').style.display = 'block';
+});
+
+document.getElementById('postcardright').addEventListener('mouseup', function() {
+  document.getElementById('myDiv14').style.display = 'none';
+});
+
+document.getElementById('postcardleft').addEventListener('mousedown', function() {
+  document.getElementById('myDiv13').style.display = 'block';
+});
+
+document.getElementById('postcardleft').addEventListener('mouseup', function() {
+  document.getElementById('myDiv13').style.display = 'none';
+});
 
 
 
